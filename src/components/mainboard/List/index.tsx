@@ -58,7 +58,7 @@ const List = ({
             dragHandleProps={provided.dragHandleProps}
           />
           <Droppable droppableId={id} direction="vertical" type="card">
-            {(provided, snap) => (
+            {(provided) => (
               <Box
                 paddingTop={1}
                 display={'flex'}
